@@ -4,26 +4,11 @@ body {
   font-family: Inter, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: rgb(237, 233, 189);
-  animation-name: backgroundColorPalette;
-  animation-duration: 10s;
-  animation-iteration-count: infinite;
-  animation-direction: alternate;
+  background-color: #a9a3c7;
   color: #fff;
   overflow-x: hidden;
 }
-@keyframes backgroundColorPalette {
-  0% {
-    background: rgb(237, 233, 189);
-  }
-  33% {
-    background: #a9a3c7;
-  }
-  66% {
-    background: #bf90a7;
-  }
-  
-}
+
 #root {
   min-height: 100vh;
   display: flex;
