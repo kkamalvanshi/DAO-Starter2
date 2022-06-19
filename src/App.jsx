@@ -189,7 +189,7 @@ const App = () => {
     return (
       <div className="member-page">
         <h1>kkDAO Member Page</h1>
-        <p>Congrats! You are now part of ㏍DAO</p>
+        <p>Congrats! You are now part of kkDAO</p>
         <div>
           <div>
             <h2>Member List</h2>
@@ -345,7 +345,7 @@ const App = () => {
   
   return (
   <div className="mint-nft">
-    <h1>Mint your Free Dao Membership NFT (Rinkeby)</h1>
+    <h1>Mint your Free Dao Membership NFT</h1>
     <button disabled ={isClaiming} onClick={mintNFT}>
       {isClaiming ? "Minting" : "Mint your NFT (FREE)"}
     </button>
